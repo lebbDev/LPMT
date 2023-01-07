@@ -1,0 +1,9 @@
+rlong
+pop x
+read
+pop y
+push x
+push y
++
+write
+end

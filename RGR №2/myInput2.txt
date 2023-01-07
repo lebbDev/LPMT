@@ -1,0 +1,55 @@
+rlong
+pop x
+rlong
+pop y
+push x
+push y
+>
+write
+end
+
+rlong
+pop x
+rlong
+pop y
+push x
+push y
++
+write
+
+rlong
+pop x
+rlong
+pop y
+push x
+push y
+-
+write
+
+rlong
+pop x
+rlong
+pop y
+push x
+push y
+*
+write
+
+rlong
+pop x
+rlong
+pop y
+push x
+push y
+/
+write
+
+rlong
+pop x
+rlong
+pop y
+push x
+push y
+%
+write
+end
