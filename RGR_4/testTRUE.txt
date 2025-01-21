@@ -1,0 +1,23 @@
+declare longVar as long, intVar as int, i as int ; rem Объявления
+
+set longVar to $15000000000001 ; rem Присваивания
+set intVar, i to 20 * ( 10 + 9 - 4 ) / 3 % 15 ; rem 10
+set i to ( ( ( ( ( 4 ) ) ) ) ) + i i ;
+
+intVar <- cin ; rem Ввод
+
+if intVar <= 30 goto label1 else goto label2 ; rem Условные переходы, можно и без else
+
+:label1 for i = 0 to intVar adding digit ( longVar, 1 ) rem Циклы, по умолчанию adding = 1
+i -> cout ;  rem Вывод
+next label1
+
+:label2  rem Метки
+
+switch ( i )
+case 0: i -> cout ; break ;
+case 10: digit ( longVar, 5 ) -> cout ; break ;
+default: longVar - $15000000000000 -> cout ; break ;
+end switch ;
+
+fail ; rem Принудительное завершение программы

@@ -1,0 +1,73 @@
+push 0
+pop i
+jmp 9
+;
+push 1
+push i
++
+pop i
+;
+push 5
+push i
+=
+ji 49
+push 0
+pop j
+jmp 22
+;
+push 1
+push j
++
+pop j
+;
+push 5
+push j
+=
+ji 48
+push j
+pop setTechVar
+push setTechVar
+pop g
+push setTechVar
+pop k
+push setTechVar
+pop c
+push setTechVar
+pop m
+push j
+write
+push g
+write
+push k
+write
+push c
+write
+push m
+write
+jmp 17
+jmp 4
+push i
+pop switchTechVar0
+push switchTechVar0
+push 5
+!=
+ji 69
+push j
+pop switchTechVar1
+push switchTechVar1
+push 5
+!=
+ji 64
+push $11111111111111111111111111
+write
+jmp 67
+;
+jmp 73
+jmp 67
+;
+jmp 72
+;
+jmp 73
+jmp 72
+;
+end
